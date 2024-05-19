@@ -1,0 +1,139 @@
+*{
+margin: 0px;
+}
+p{
+    font-size: 16px;
+}
+.navbar
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    width:100%;
+    height: 70px;
+    position: fixed;
+
+}
+.menu-icon
+{
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 30px;    
+
+}
+.yt-icon
+{
+    width: 120px;
+    margin-left: 30px;  
+}
+
+.double
+{
+    display: flex;
+}
+.centre-icons
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+.search-bar {
+    width: 30%;
+    height: 35px;
+    padding: 2px;
+    font-size: 20px;
+    margin-top: -38px;
+    margin-left: -230px;
+  
+}
+ .search-button {
+    margin-top: -38px;
+    width: 50px;
+    font-size: large;
+    height: 42px;
+    cursor: pointer;
+    margin-right: 10px;
+} 
+.voice
+{
+    width: 40px;
+    margin-top: -40px;
+}
+.end-icon
+{
+    width: 65px;
+    display: flex;
+    padding: 80px;
+    margin-left: 80%;
+    margin-top:-8%;
+}
+.end-icon img
+{
+    margin-right: 25px;
+}
+.left {
+    background-color: #FFFFFF;
+    width: 8%;
+    height: 90vh;
+    margin-top: 70px;
+    display: flex;
+    position: fixed;
+}
+
+.left-child {
+    display: flex;
+    flex-direction: column;
+    width: 38px;
+    padding: 40px;
+    justify-content: space-between; 
+}
+
+.left-grand-child:hover
+{
+    background-color: #c2c2c2;
+    cursor: pointer;
+} 
+.left-grand-child p
+{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -3px;
+}
+.video-section
+{
+    background-color: #f4f4f4;
+    position:static;
+    margin-top: 70px;
+    margin-left: 120px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.video-thumbnail {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.video-thumbnail iframe {
+    width: 100%;
+    height: 200px;
+}
+
+.video-info {
+    margin-top: 10px;
+}
+
+.video-info h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+.video-info p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #000000;
+}
